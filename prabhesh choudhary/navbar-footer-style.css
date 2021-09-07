@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    font-family: "Rubik",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    overflow: hidden; 
+}
+.set-logo{
+    width: 120px;
+   text-align: left;
+}
+.logo-text{
+    font-weight: 800;
+    margin-right: 300px;
+}
+.nav-set{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(240, 44, 44) !important;
+    /* text-decoration: underline !important; */
+}
+.navbar-brand{
+    font-size: 30px !important;
+}
+
+  .fixed-top{
+      left: -15px !important;
+      width: 119% !important;
+      top: -20px !important;
+      padding-top: 3px;
+  }
+  
+  .footer-area {
+    background: #080827;
+}
+.footer-padding {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.set-logo-footer{
+    width: 80px;
+}
+.footer-area .footer-top .footer-top-cap img {
+    margin-bottom: 11px;
+}
+.footer-head {
+    color: white;
+}
+.footer-loc{
+    margin-top: 25px;
+    color: whitesmoke;
+}
+.footer-location{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-area .footer-social a:first-child {
+    margin-left: 0;
+}
+
+.footer-area .footer-bottom {
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+.footer-area .footer-social a {
+    color: #dcecfc;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 16px;
+}
+.f-right {
+    float: right;
+    font-size: 14px;
+}
+.footer-phone{
+    margin: 2px 0px 0 20px;
+    color: whitesmoke;
+}
+.img-phone{
+    margin: 2px 0 0 200px;
+}
+.footer-area .footer-social a:hover {
+    color: #fff !important;
+}
+.img-mail{
+    margin: 2px 0 0 200px;
+}
+.footer-mail{
+    margin: 0px 0px 0 20px;
+    color: whitesmoke;
+}
+.footer-img{
+    margin-left: -125px;
+}
+
+#back-top {
+    background: #ec5b53;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgb(108 98 98 / 20%);
+}
+.arrow{
+    color: white;
+}
+.cright{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.bg-light1 {
+    background-color: #dcecfc !important;
+}
